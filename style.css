@@ -7,7 +7,14 @@
     color: #000;
     font-size: 62.5%;
 }
-
+.headerwrap{
+    width: 1280px;
+    height: 90px;
+    
+   margin: auto;
+    position: relative;
+    left: 0px;
+}
 .header{
     display: flex;
     width: 100%;
@@ -21,7 +28,7 @@
 .nav{
     display: flex;
     position: absolute;
-    right: 320px;
+    right: 0px;
     top: 20px;
 }
 .nav>li{
@@ -30,9 +37,9 @@
     font-family: 'Roboto', sans-serif;
 }
 .logo{
-    position: absolute;
-    left: 320px;
     top:16px;
+    position: relative;
+    left: 0px;
 }
 /*---------------------------------------------Activity-----------------------------------*/
 .mainimg{
@@ -40,16 +47,17 @@
     height: 600px;
 }
 .innertext{
-    position: absolute;
+    position: relative;
     width: 1280px;
-    margin-left: 320px;
-    top: 240px;
+    margin: auto;
+    height: 600px;
+    top: -400px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: white;
 }
 .activity{
     /* background-color: aqua; */
@@ -187,7 +195,7 @@
 }
 .texts{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #868686;
     position: relative;
     left: -110px;
@@ -196,7 +204,7 @@
 
 .professor{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #868686;
     position: relative;
     left: -110px;

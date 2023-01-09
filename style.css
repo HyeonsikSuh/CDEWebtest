@@ -1,0 +1,203 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-size: 62.5%;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 2px 10px gray;
+    background-color: white;
+
+}
+.nav{
+    display: flex;
+    position: absolute;
+    right: 320px;
+    top: 20px;
+}
+.nav>li{
+    margin-left: 50px;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    position: absolute;
+    left: 320px;
+    top:16px;
+}
+/*---------------------------------------------Activity-----------------------------------*/
+.mainimg{
+    width: 100%;
+    height: 600px;
+}
+.innertext{
+    position: absolute;
+    width: 1280px;
+    margin-left: 320px;
+    top: 240px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.activity{
+    /* background-color: aqua; */
+    width: 1280px;
+    height: 385px;
+    margin: auto;
+    position: relative;
+    top: 30px;  
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    /* background-color: #e2e2e2; */
+    width: 136px;
+    height: 53px;
+}
+.cards{
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.card1{
+    position: relative;
+    width: 290px;
+    height: 322px;
+    margin-right: 40px;
+    /* background-color: brown; */
+    float: left;
+    
+}
+.card2{
+    position: relative;
+    width: 290px;
+    height: 322px;
+    /* background-color: brown; */
+    float: left;
+}
+.date{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.8rem;
+    position: relative;
+    top: 10px;
+    letter-spacing: 0px;
+    /* background-color: blue; */
+}
+.cardtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    top: 20px;
+    letter-spacing: 0px;
+    /* background-color: coral; */
+    width: 290px;
+    height: 58px;
+}
+/*---------------------------------------------Notice-----------------------------------*/
+.notice{
+    /* background-color: aqua; */
+    width: 1280px;
+    height: 451px;
+    margin: auto;
+    position: relative;
+    top: 100px;  
+}
+.alarm{
+    width: 620px;
+    height: 388px;
+    /* background-color: brown; */
+    float: left;
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
+}
+.freechart{
+    width: 620px;
+    height: 388px;
+    /* background-color: brown; */
+    float: left;
+    position: relative;
+    top: 10px;
+}
+.charttitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.news{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+}
+/*---------------------------------------------location-----------------------------------*/
+.location{
+    /* background-color: darkblue; */
+    width: 1280px;
+    height: 451px;
+    margin: auto;
+    position: relative;
+    top: 170px; 
+}
+.map{
+    background-color:aqua;
+    position: relative;
+    top: 10px;
+    
+}
+/*---------------------------------------------location-----------------------------------*/
+.footer{
+    background-color: #e2e2e2;
+    width: 100%;
+    height:320px;
+    position: relative;
+    top: 310px;
+}
+.schoollogo{
+    /* background-color: aqua; */
+    width: 260px;
+    height: 42px;
+    position: relative;
+    top: 50px;
+    left: 320px;
+}
+.clublogo{
+    float: left;
+    left: 630px;
+    position: relative;
+}
+.footertext{
+    /* background-color: blueviolet; */
+    width: 700px;
+    height: 180px;
+    position: relative;
+    left: 320px;
+    top: 100px;
+}
+.texts{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    color: #868686;
+    position: relative;
+    left: -110px;
+    margin-bottom: 10px;
+}
+
+.professor{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    color: #868686;
+    position: relative;
+    float: left;
+}

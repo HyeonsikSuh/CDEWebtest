@@ -172,33 +172,43 @@
     position: relative;
     top: 310px;
 }
+.footerlogo{
+    position: relative;
+    /* background-color: aqua; */
+    width: 1280px;
+    height: 80px;
+    margin: auto;
+    top: 50px;
+}
 .schoollogo{
     /* background-color: aqua; */
     width: 260px;
     height: 42px;
     position: relative;
-    top: 50px;
-    left: 320px;
+    top: 0px;
+    left: 0px;
+    float: left;
+    margin-right: 50px;
 }
 .clublogo{
     float: left;
-    left: 630px;
     position: relative;
 }
 .footertext{
     /* background-color: blueviolet; */
-    width: 700px;
+    width: 1280px;
     height: 180px;
     position: relative;
-    left: 320px;
-    top: 100px;
+    margin: auto;
+    left: 0px;
+    top: 70px;
 }
 .texts{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.5rem;
     color: #868686;
     position: relative;
-    left: -110px;
+    left: 0px;
     margin-bottom: 5px;
 }
 
@@ -207,5 +217,5 @@
     font-size: 1.5rem;
     color: #868686;
     position: relative;
-    left: -110px;
+    left: 0px;
 }

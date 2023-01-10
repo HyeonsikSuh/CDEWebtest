@@ -70,25 +70,10 @@
 }
 .cards{
     width: 100%;
-    position: relative;
-    top: 10px;
+    display: flex;
+    column-gap: 40px;
 }
-.card1{
-    position: relative;
-    width: 290px;
-    height: 322px;
-    margin-right: 40px;
-    /* background-color: brown; */
-    float: left;
     
-}
-.card2{
-    position: relative;
-    width: 290px;
-    height: 322px;
-    /* background-color: brown; */
-    float: left;
-}
 .date{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.8rem;

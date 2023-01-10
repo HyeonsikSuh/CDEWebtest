@@ -10,10 +10,10 @@
 .headerwrap{
     width: 1280px;
     height: 90px;
-    
+    display: flex;
    margin: auto;
-    position: relative;
-    left: 0px;
+    justify-content: space-between;
+    align-items: center;
 }
 .header{
     display: flex;
@@ -27,20 +27,13 @@
 }
 .nav{
     display: flex;
-    position: absolute;
-    right: 0px;
-    top: 20px;
+    column-gap: 50px;
 }
 .nav>li{
-    margin-left: 50px;
     font-size: 4rem;
     font-family: 'Roboto', sans-serif;
 }
-.logo{
-    top:16px;
-    position: relative;
-    left: 0px;
-}
+
 /*---------------------------------------------Activity-----------------------------------*/
 .mainimg{
     width: 100%;
@@ -77,25 +70,10 @@
 }
 .cards{
     width: 100%;
-    position: relative;
-    top: 10px;
+    display: flex;
+    column-gap: 40px;
 }
-.card1{
-    position: relative;
-    width: 290px;
-    height: 322px;
-    margin-right: 40px;
-    /* background-color: brown; */
-    float: left;
-    
-}
-.card2{
-    position: relative;
-    width: 290px;
-    height: 322px;
-    /* background-color: brown; */
-    float: left;
-}
+
 .date{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.8rem;
@@ -123,23 +101,17 @@
     position: relative;
     top: 100px;  
 }
-.alarm{
-    width: 620px;
-    height: 388px;
-    /* background-color: brown; */
-    float: left;
-    margin-right: 40px;
-    position: relative;
-    top: 10px;
+
+.notice__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
 }
-.freechart{
-    width: 620px;
-    height: 388px;
-    /* background-color: brown; */
-    float: left;
-    position: relative;
-    top: 10px;
+
+.alarm, .freechart {
+    flex: 1;
 }
+
 .charttitle{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 3rem;
